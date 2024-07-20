@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "industrialcraft3:ore_ratersite",
+  "step": "underground_ores"
+}

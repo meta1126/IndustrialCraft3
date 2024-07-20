@@ -1,5 +1,7 @@
 package com.meta.IndustrialCraft3;
 
+import com.meta.IndustrialCraft3.block.ModBlocks;
+import com.meta.IndustrialCraft3.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -40,7 +42,7 @@ public class IndustrialCraft3
     // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
     // Create a Deferred Register to hold Items which will all be registered under the "examplemod" namespace
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, IndustrialCraft3.MODID);
     // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "examplemod" namespace
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
@@ -83,6 +85,10 @@ public class IndustrialCraft3
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+        ModItems.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModBlocks.register(FMLJavaModLoadingContext.get().getModEventBus());
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -103,6 +109,20 @@ public class IndustrialCraft3
     {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(EXAMPLE_BLOCK_ITEM);
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.RAWALUMINIUM.get());
+            event.accept(ModItems.RAWCASSTIERTE.get());
+            event.accept(ModItems.ALUMINIUMINGOT.get());
+            event.accept(ModItems.CASSTIERITEINGOT.get());
+            event.accept(ModItems.STEELPLATE.get());
+            event.accept(ModItems.TWICECOMPRESSSTEELPLATE.get());
+            event.accept(ModItems.STEELINGOT.get());
+        }
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.RATERSITE_ORE.get());
+            event.accept(ModBlocks.CASSTIERITE_ORE.get());
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

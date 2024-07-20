@@ -1,0 +1,7 @@
+// 1.20.1	2024-07-20T22:38:02.9405366	Registries
+e41a88a8041509c5efd1f19e1daff2e95f7f27e6 data/industrialcraft3/forge/biome_modifier/add_casstierte_ore.json
+51775de269e983a658018ce92190935384d19fdf data/industrialcraft3/forge/biome_modifier/add_ratersite_ore.json
+6cf8f337139fc833930ae6a31d878d49434a0897 data/industrialcraft3/worldgen/configured_feature/casstierte_ore.json
+d18762d34c3cd20d9cf71b4900e4dedb6d736cd8 data/industrialcraft3/worldgen/configured_feature/ratersite_ore.json
+c973218799f793e9f03ea9f7593ca7817c35481a data/industrialcraft3/worldgen/placed_feature/ore_casstierte.json
+d5f1f79bcc1ca4515cad47cf1eb618742eecc767 data/industrialcraft3/worldgen/placed_feature/ore_ratersite.json
