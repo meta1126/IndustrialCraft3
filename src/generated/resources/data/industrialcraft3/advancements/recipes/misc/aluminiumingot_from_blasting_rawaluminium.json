@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rawaluminium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "industrialcraft3:rawaluminium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "industrialcraft3:aluminiumingot_from_blasting_rawaluminium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rawaluminium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "industrialcraft3:aluminiumingot_from_blasting_rawaluminium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

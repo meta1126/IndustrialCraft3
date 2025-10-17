@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_casstierite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "industrialcraft3:casstierite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "industrialcraft3:casstieriteinogot_from_smelting_casstierite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_casstierite_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "industrialcraft3:casstieriteinogot_from_smelting_casstierite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

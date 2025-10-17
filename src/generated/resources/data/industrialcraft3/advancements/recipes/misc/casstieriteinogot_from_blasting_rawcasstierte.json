@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rawcasstierte": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "industrialcraft3:rawcasstierte"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "industrialcraft3:casstieriteinogot_from_blasting_rawcasstierte"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rawcasstierte",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "industrialcraft3:casstieriteinogot_from_blasting_rawcasstierte"
+    ]
+  },
+  "sends_telemetry_event": false
+}

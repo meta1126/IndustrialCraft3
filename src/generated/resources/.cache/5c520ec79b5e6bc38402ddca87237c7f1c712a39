@@ -1,0 +1,4 @@
+// 1.20.1	2025-10-17T21:26:12.15677207	Tags for minecraft:block mod id industrialcraft3
+7a7c40964d2fd316156b4081c5e47a2736dae2d2 data/minecraft/tags/blocks/mineable/pickaxe.json
+94bf83a55c9abd9b6a6495aee568e1ffdedcd677 data/minecraft/tags/blocks/needs_iron_tool.json
+63be9a52135a829d3e4795e8c9c7feb337898ab3 data/minecraft/tags/blocks/needs_stone_tool.json
