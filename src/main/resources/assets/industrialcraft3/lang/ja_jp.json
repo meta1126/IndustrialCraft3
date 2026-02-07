@@ -6,8 +6,7 @@
   "item.industrialcraft3.steelingot": "銅鉄インゴット",
   "item.industrialcraft3.steelplate": "銅鉄プレート",
   "item.industrialcraft3.twicecompresssteelplate": "2倍圧縮銅鉄プレート",
-
-
   "block.industrialcraft3.ratersite_ore":"ラテラサイト鉱石",
-  "block.indsutrialcraft3.casstieirte_ore":"キャスティアライト鉱石"
+  "block.indsutrialcraft3.casstieirte_ore":"キャスティアライト鉱石",
+  "item.industrialcraft3.wooden_shears": "木製ばさみ"  
 }

@@ -32,6 +32,9 @@ public class ModItems {
     public static final RegistryObject<Item> STEELINGOT = ITEMS.register("steelingot",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> WOODEN_SHEARS = ITEMS.register("wooden_shears", () -> new WoodenShearsItem(new Item.Properties()
+															  .durability(2)));
+    
     public static void register(IEventBus eventbus){
         ITEMS.register(eventbus);
     }

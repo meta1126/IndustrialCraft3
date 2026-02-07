@@ -122,6 +122,9 @@ public class IndustrialCraft3
             event.accept(ModBlocks.RATERSITE_ORE.get());
             event.accept(ModBlocks.CASSTIERITE_ORE.get());
         }
+	if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+	    event.accept(ModItems.WOODEN_SHEARS.get());
+	}
 
     }
 

@@ -7,5 +7,6 @@
   "item.industrialcraft3.steelplate": "SteelPlate",
   "item.industrialcraft3.twicecompresssteelplate": "TwiceCompressSteelPlate",
   "block.industrialcraft3.ratersite_ore": "RatersiteOre",
-  "block.indsutrialcraft3.casstieirte_ore": "CasstieirteOre"
+  "block.indsutrialcraft3.casstieirte_ore": "CasstieirteOre",
+  "item.industrialcraft3.wooden_shears": "Wooden Shears" 
 }
