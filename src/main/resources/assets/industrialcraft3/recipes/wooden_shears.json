@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+	" P",
+	"P "
+    ],
+    "key": {
+	"P": {
+	    "item": "minecraft:planks"
+	}
+    },
+    "result":{
+	"item": "industrialcraft3:wooden_shears"
+    }
+}

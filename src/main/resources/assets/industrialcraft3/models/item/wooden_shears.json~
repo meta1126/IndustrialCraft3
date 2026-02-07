@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+	"layer0": "IndustrialCraft3:item/wooden_Scissors"
+    }
+}

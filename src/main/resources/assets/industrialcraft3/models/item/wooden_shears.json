@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+	"layer0": "industrialcraft3:item/wooden_shears"
+    }
+}
